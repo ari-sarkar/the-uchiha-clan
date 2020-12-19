@@ -1,0 +1,138 @@
+main {
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  cursor: url(../cursor.png), auto;
+  overflow: hidden;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+#uchihaBanner{
+  background-color: black;
+}
+.topbanner-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.topbanner-images-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.topbanner-images-wrapper img {
+  width: 100vw;
+  height: 90vh;
+}
+.shisui {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  opacity: 0;
+}
+.obito {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  opacity: 0;
+}
+.sauske {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  opacity: 0;
+}
+.madara {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  opacity: 0;
+}
+.hitachi {
+  position: absolute;
+  top: 4%;
+  left: 0%;
+  opacity: 0;
+}
+.topbanner-text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topbanner-text-headline {
+  color: red;
+  font-size: 3em;
+  font-family: "Piedra", cursive;
+  opacity: 0;
+  margin-top: 20%;
+}
+.quickIntro {
+  color: #ffff;
+  font-size: 1.5em;
+  opacity: 0;
+  font-family: "Piedra", cursive;
+}
+.Introduction {
+  color: #ffffff;
+  width: 80%;
+  padding: 20px;
+  height: auto;
+  opacity: 0;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.sharingan-text{
+  color: red;
+  font-family: "sans-serif", cursive;
+}
+.line-mouse2 {
+  animation: line-mouse2-scroll 2s infinite;
+}
+@keyframes line-mouse2-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 10px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .line-mouse2 {
+    animation: none;
+  }
+}
+#mouse {
+  display: block;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.mouse-scroll-down {
+  display: block;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}

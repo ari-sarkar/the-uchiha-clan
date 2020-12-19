@@ -1,0 +1,45 @@
+.st0 {
+  fill: #ffff;
+}
+.st1 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 28;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.st3 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 8;
+  stroke-miterlimit: 10;
+}
+.st4 {
+  fill: #020000;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+.st5 {
+  fill: #070000;
+}
+#Sharingan {
+  background-color: rgb(0, 0, 0);
+}
+#eye-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#left-eye, #right-eye{
+  width: 500px;
+  height: 500px;
+}
+.mangekyo{
+  visibility: hidden;
+}

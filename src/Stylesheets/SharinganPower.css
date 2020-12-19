@@ -1,0 +1,48 @@
+.sharingan-power-wrapper{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.hitachi-wrapper{
+    width: 40vw;
+    background-color: brown;
+}
+.hitachi-pointing {
+    width: 35vw;
+    height: 100vh;
+}
+.sharingan-evolove-images {
+    display: flex;
+    width: 55vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(250, 250, 250);
+}
+.tomoes {
+    width: 150px;
+    height: 150px;
+}
+.one-tomoea-image, .two-tomoea-image, .three-tomoea-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+}
+.tomoeas-headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+}
+.tomoeas-headline-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    font-family: "sans-serif", cursive;
+    padding-right: 40px;
+}

@@ -1,0 +1,110 @@
+.all-uchiha {
+    background-color: rgb(198, 201, 198);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.uchiha-mangekyo-divider {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-around;
+}
+.uchiha-mangekyo-wrapper {
+    width: 20%;
+    height: 100%;
+    border: 1px solid rgb(126, 123, 123);
+    border-radius: 10px;
+    background: linear-gradient(#d5d5d5, #7e7e80);
+}
+.initial {
+    border: 1px solid rgb(126, 123, 123);
+    border-radius: 10px;
+    transition: box-shadow 1s;
+    background: linear-gradient(#d5d5d5, #7e7e80);
+}
+.uchiha-mangekyo-wrapper:hover {
+    box-shadow: 2px 3px 10px 0px rgb(63, 62, 62);
+    border: 1px solid rgb(126, 123, 123);
+    transform: perspective(500px)  rotateY(15deg);
+    transition: transform 1s;
+}
+.uchiha-mangekyo-wrapper:hover .uchiha-mangekyo img{
+    perspective: 500px;
+   transform: translateZ(100px)
+}
+.uchiha-mangekyo-wrapper:hover .uchihas img{
+    perspective: 500px;
+   transform: translateZ(100px)
+}
+.uchiha-mangekyo {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+.uchiha-mangekyo img{ 
+    width: 50px;
+    height: 50px;
+}
+.uchihas {
+    width: 100%;
+    height: 75%;
+    text-align: center;
+}
+.uchihas img{
+    width: 100px;
+    height: 200px;
+}
+.tagname {
+    font-family: "sans-serif", cursive;
+    font-size: 0.6em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 40%;
+    color: whitesmoke;
+}
+.alluchihas-intro{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color:  rgb(198, 201, 198);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 800;
+}
+.alluchihas-intro-text{
+    font-size: 4em;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+}
+.alluchiha-text-animate {
+    padding-left: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,124 @@
+.st0-eyemod {
+  fill: #fafcff;
+}
+.st1-eyemod {
+  stroke: #000000;
+  stroke-width: 35.1649;
+  stroke-miterlimit: 10;
+}
+.st2-eyemod {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 17.5825;
+  stroke-miterlimit: 10;
+}
+.st3-eyemod {
+  opacity: 0.34;
+}
+#ModEye {
+  width: 600px;
+  height: 400px;
+}
+#EyeEvolution {
+  background-color: rgb(218, 217, 217);
+  position: relative;
+}
+#animation-eyemod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modEyeText-wrapper {
+  color: rgb(53, 19, 19);
+  font-family: "sans-serif", cursive;
+  width: 100%;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
+.modEyeText-wrapper h3 {
+  width: 100%;
+}
+
+/* ***************ANIMATION**************** */
+.normal-eye,
+.one-tomoea,
+.two-tomoea,
+.three-tomoea,
+.mangekyo-sharingan,
+.eternal-mangekyo-sharingan {
+  visibility: hidden;
+  /* transform: translateX(-8%); */
+}
+#eye-curve2,
+#eye-curve3 {
+  visibility: hidden;
+}
+#snapshot {
+  width: 100%;
+  height: 18vh;
+  background-color: rgb(218, 217, 217);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+#snapshot img {
+  margin-left: 1em;
+  width: 80px;
+  height: 40px;
+}
+.snapshot-text-wrapper, .snapshot-text-wrapper1, .snapshot-text-wrapper2, .snapshot-text-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.snapshot-text {
+  color: #792020;
+  font-family: "sans-serif", cursive;
+}
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.circle,
+.circle1, .circle2 {
+  background-color: #ffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(138, 136, 136);
+  visibility: hidden;
+}
+.eyeEvolution-cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  text-align: center;
+}
+.eyeEvolution-cover-textWrapper{
+  color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "sans-serif", cursive;
+  font-size: 1.1em;
+  width: 90%;
+  text-align: center;
+}
+/* ***************ANIMATION END**************** */
